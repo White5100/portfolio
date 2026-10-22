@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+:root {
+    --text-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 20px 400px;
+}
+
+header hr {
+    border: none;
+    background-color: #BB5337;
+    height: 1px;
+    width: 70px;
+    margin-left: -15px;
+}
+
+header span {
+    margin-left: -12px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+header ul a:hover {
+    color: crimson;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+
+.head-ul {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+}
+
+.about-container {
+    justify-content: space-between;
+    display: flex;
+}
+
+.about-heading {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.about-footer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 187px;
+}
+
+.about-footer--text {
+    line-height: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.hobby-container {
+    padding-top: 200px;
+}
+
+.hobby-container h2 {
+    margin-bottom: 40px;
+}
+
+.hobby-container hr {
+    border: none;
+    border-top: 2px solid black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.hobby-container h3 {
+    color: #BB5337;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.hobby-paragraph {
+    display: flex;
+    gap: 190px;
+}
+
+.hobby-paragraph-text p {
+    font-size: 16px;
+}
+
+.hobby-container hr:last-child {
+    margin-bottom: 0px;
+}
+
+.works {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.works-left-block {
+    margin-top: 40px;
+}
+
+.works>img {
+    margin-top: 35px;
+}
+
+.head-logo hr {
+    border: none;
+    background-color: #BB5337;
+    height: 1px;
+    width: 70px;
+    margin-left: -15px;
+}
+
+.head-logo span {
+    margin-left: -12px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+
+}
+
+.footer-email {
+    padding-top: 80px;
+}
+
+.footer-card {
+    display: flex;
+}
+
+.footer-card p {
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+}
+
+footer .head-logo {
+    padding-top: 65px;
+    font-family: 'Lato', sans-serif;
+}
