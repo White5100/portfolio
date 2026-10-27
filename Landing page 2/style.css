@@ -1,0 +1,291 @@
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+            /* :root{
+                
+            } */
+
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+
+            ul {
+                list-style: none;
+            }
+
+            body {
+                margin-top: 30px;
+                margin-left: 50px;
+            }
+
+            header {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                align-items: center;
+            }
+
+
+            .header-second-image {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            header ul {
+                list-style: none;
+                display: flex;
+                gap: 50px;
+                justify-content: left;
+            }
+
+            header ul a {
+                padding: 10px;
+            }
+
+            header ul a:hover {
+                color: white;
+                background-color: black;
+                border: none;
+                border-radius: 25px;
+            }
+
+            .top-about {
+                margin-top: 150px;
+                margin-left: 50px;
+            }
+
+            .top-about-label {
+                color: #DF6951;
+                font-weight: 800;
+                font-family: "Popins", sans-serif;
+                font-size: 18px;
+            }
+
+            .top-about-heading {
+                max-width: 600px;
+                font-family: "Volkhov", sans-serif;
+                font-size: 80px;
+                font-weight: 700;
+                color: #060061;
+                padding-top: 20px;
+                padding-bottom: 35px;
+            }
+
+            .top-about-text {
+                font-family: "Popins", sans-serif;
+                font-weight: 400;
+                color: #5E6282;
+                max-width: 450px;
+                font-size: 18px;
+                line-height: 28px;
+                padding-bottom: 50px;
+            }
+
+            .buttons {
+                display: flex;
+                gap: 30px;
+                align-items: center;
+            }
+
+            .button-find {
+                background-color: #ffb303;
+                border-color: none;
+                border-radius: 10px;
+                padding: 20px 28px;
+                color: white;
+                width: fit-content;
+                text-align: center;
+                border: none;
+            }
+
+            .button-play {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                border: none;
+                background: none;
+            }
+
+            .category {
+                margin-top: 250px;
+                text-align: center;
+            }
+
+            .category-head p:first-child {
+                font-family: "Poppins", sans-serif;
+                font-size: 20px;
+                color: #5E6282;
+                font-weight: 600;
+            }
+
+            .category h2 {
+                font-family: "Volkhov", sans-serif;
+                font-weight: 700;
+                font-size: 50px;
+            }
+
+            .category-head {
+                margin-bottom: 150px;
+                line-height: 70px;
+            }
+
+            .category-cards {
+                display: flex;
+                justify-content: space-between;
+                gap: 40px;
+            }
+
+            .category-cards-block {
+                text-align: center;
+                line-height: 50px;
+                width: 260px;
+                height: 260px;
+            }
+
+            .category-cards-block p:first-of-type {
+                font-family: "Poppins", sans-serif;
+                font-size: 20px;
+            }
+
+            .category-cards-block p:last-child {
+                color: #5E6282;
+                font-family: "Poppins", sans-serif;
+                line-height: 25px;
+                max-width: 220px;
+                margin: 0 auto;
+                text-wrap: balance;
+            }
+
+            .category-cards-block img {
+                display: block;
+                object-fit: contain;
+                margin: 0 auto 30px;
+            }
+
+
+            .card-wrap {
+                position: relative;
+            }
+
+            .square {
+                position: absolute;
+                left: -30px;
+                bottom: -30px;
+                width: 90px;
+                height: 90px;
+                background: #DF6951;
+                border-radius: 30px 0 5px 0;
+                z-index: -1;
+            }
+
+            .card-wrap .category-cards-block {
+                border-radius: 15%;
+                box-shadow: 0px 6px 3px rgba(0, 0, 0, 0.08);
+                background: white;
+                z-index: 1;
+            }
+
+            .selling-cards-text {
+                background: white;
+                position: relative;
+                margin-top: -130px;
+                border-radius: 0px 0px 23px 23px;
+                padding: 15px;
+                box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.15);
+            }
+
+            .selling-cards-text-price {
+                color: #5E6282;
+                display: flex;
+                font-size: 20px;
+                justify-content: space-between;
+            }
+
+            .selling-cards-text-time {
+                color: #5E6282;
+                display: flex;
+                padding-top: 83px;
+                text-align: start;
+                font-size: 18px;
+                gap: 10px;
+            }
+
+            .subscribe {
+                margin-top: 300px;
+
+            }
+
+            .email-enter {
+                background-color: #DFD7F9;
+                margin: 0 150px;
+                text-align: center;
+                border-radius: 150px 10px 10px 10px;
+
+            }
+
+            .email-enter h3 {
+                font-family: "Poppins", sans-serif;
+                line-height: 70px;
+                font-size: 33px;
+                max-width: 1000px;
+                margin: 0 auto;
+                padding-top: 50px;
+            }
+
+            .email-send {
+                margin-top: 75px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                padding-bottom: 65px;
+            }
+
+            .email-enter input {
+                width: 421px;
+                height: 70px;
+                border-radius: 15px;
+                border: none;
+            }
+
+            .email-enter a {
+                background-image: linear-gradient(to bottom, #FF946D 20%, #FF7D68 75%);
+                padding: 27.5px 90px;
+                border-radius: 15px;
+            }
+
+            .footer-info {
+                display: flex;
+                margin: 100px 50px 100px 50px;
+                justify-content: space-around;
+            }
+
+            .footer-info-logo {
+                display: block;
+                max-width: 260px;
+                color: #5E6282;
+                font-family: "Poppins", sans-serif;
+
+            }
+
+            .footer-info-logo h2 {
+                font-size: 40px;
+                padding-bottom: 20px;
+            }
+
+            .footer-info-block p {
+                font-family: "Poppins", sans-serif;
+                font-weight: 700;
+                padding-bottom: 15px;
+            }
+
+            .footer-info-block ul li {
+                font-family: "Poppins", sans-serif;
+                line-height: 30px;
+                color: #5E6282;
+            }
