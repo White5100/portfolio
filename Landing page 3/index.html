@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header background">
+            <p>Лес</p>
+            <nav>
+                <ul>
+                    <li><a href="">Проекты</a></li>
+                    <li><a href="">Как мы работаем</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <p><a href="">Оставить заявку</a></p>
+        </div>
+    </header>
+    <main>
+        <section class="hero background">
+            <div class="hero__block">
+                <div>
+                    <div class="hero__container">
+                        <p class="hero__subtitle">ОЗЕЛЕНЕНИЕ ОФИСОВ И КВАРТИР</p>
+                        <h1 class="hero__title">Живой зелёный уголок в вашем интерьере</h1>
+                        <p class="hero__description">Подберём растения под ваш свет и стиль, посадим и расскажем, как за
+                            ними
+                            ухаживать</p>
+                    </div>
+                    <div class="hero__buttons">
+                        <ul>
+                            <li><a href="">Рассчитать проект</a></li>
+                            <li><a href="">Смотреть проекты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="images/hero_image.jpeg" alt="" width="38%">
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about_container">
+                <h2>Почему выбирают нас</h2>
+                <div class="about_cards">
+                    <div class="about_card">
+                        <h3>Подбор под свет</h3>
+                        <p>Учитываем окна, сторону света и микроклимат помещения.</p>
+                    </div>
+                    <div class="about_card">
+                        <h3>Всё под ключ</h3>
+                        <p>Привозим растения, кашпо и грунт, сажаем и убираем за собой.</p>
+                    </div>
+                    <div class="about_card">
+                        <h3>Уход после посадки</h3>
+                        <p>Учитываем окна, сторону света и микроклимат помещения.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects background">
+            <h2>Проекты</h2>
+            <div class="projects_preview">
+                <figure>
+                    <img src="images/koworking.jpg" alt="" width="500" height="335">
+                    <figcaption>
+                        Офис в коворкинге
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/studio.jpeg" alt="" width="700" height="335">
+                    <figcaption>
+                        Квартира-студия
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/home.jpeg" alt="" width="700" height="335">
+                    <figcaption>
+                        Загородный дом
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/cafe.jpg" alt="" width="500" height="335">
+                    <figcaption>
+                        Кафе
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="working background">
+            <h2>Как мы работаем</h2>
+            <div class="working_cards">
+                <div class="work_card">
+                    <p class="work_card_number">1</p>
+                    <p class="work_card_titul">Заявка и замеры</p>
+                    <p class="work_card_description">Вы оставляете заявку, мы приезжаем и оцениваем пространство.</p>
+                </div>
+                <div class="working_cards">
+                    <div class="work_card">
+                        <p class="work_card_number">2</p>
+                        <p class="work_card_titul">Проект и смета</p>
+                        <p class="work_card_description">Показываем подборку растений и считаем итоговую стоимость.
+                        </p>
+                    </div>
+                </div>
+                <div class="working_cards">
+                    <div class="work_card">
+                        <p class="work_card_number">3</p>
+                        <p class="work_card_titul">Посадка и уход</p>
+                        <p class="work_card_description">Высаживаем, оформляем и объясняем, как ухаживать.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="your_project" class="background">
+            <div class="send_your_project">
+                <div class="send_your_project_info">
+                    <h2>Обсудим ваш проект</h2>
+                    <p>Оставьте контакты, и мы свяжемся с вами, чтобы договориться о замерах</p>
+                </div>
+                <form action="#your_project">
+                    <div class="send_your_project_contact">
+                        <div class="send_your_project_contact_form">
+                            <label for="name">Имя</label>
+                            <input type="text" id="name" placeholder="Как к вам обращаться">
+                        </div>
+                        <div class="send_your_project_contact_form">
+                            <label for="phone">Номер телефона</label>
+                            <input type="text" id="phone" placeholder="+7 ___ ___-__-__">
+                        </div>
+                    </div>
+                    <div class="send_your_project_contact_check">
+                        <input type="checkbox" id="agree">
+                        <label for="agree">Согласен на обработку персональных данных</label>
+                    </div>
+                    <a>Отправить заявку</a>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div>
+                <h2>Лес</h2>
+                <address>
+                    <a href="">+7 999 999 99 99</a>
+                    <p>|</p>
+                    <a href="">lesnik@mail.ru</a>
+                </address>
+                <p>© Лес, 2026</p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
